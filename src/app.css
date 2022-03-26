@@ -1,0 +1,85 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(rgba(0,0,0,1) 0%, rgb(0, 0, 27) 98%);
+}
+
+.title {
+    font-size: 85px;
+    color:#fff;
+}
+
+.section-input {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section-input input {
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    color: #fff;
+    outline: none;
+    margin-right: 10px;
+}
+
+.section-input input::placeholder {
+    color: #F1F1F1;
+}
+
+.btn-search {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.btn-search:hover {
+    transform: scale(1.5);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 510px;
+    border-radius: 8px;
+}
+
+.content h2 {
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.content span {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 714px){
+    .title {
+        font-size: 60px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content {
+        width: 80%;
+        min-height: 250px;
+    }
+}
