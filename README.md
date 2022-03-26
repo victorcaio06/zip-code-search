@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Zip Code Search
+
+## This project was developed to solve the problem of when it is necessary to verify if the CEP exists and to confirm its information
+#
+### The react-icons package was used, the axios library and the API chosen to check and search for the information was ViaCEP  
+
+<img src="./img-search.png" />
+<img src="./img-search-content.png" />
+
+#
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
